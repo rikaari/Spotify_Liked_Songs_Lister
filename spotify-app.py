@@ -7,8 +7,8 @@ app = Flask(__name__)
 # Secret key for session management
 app.secret_key = 'random_secret_key_for_sessions'
 
-CLIENT_ID = '5dd4a74df7a34ef085a14961317b222e'
-CLIENT_SECRET = 'f2ddfcc48beb46649c5fe46a98bcc994'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 REDIRECT_URI = 'http://127.0.0.1:8888/callback'
 SCOPE = 'user-library-read'
 
