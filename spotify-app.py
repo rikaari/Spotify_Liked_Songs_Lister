@@ -9,7 +9,7 @@ app.secret_key = 'random_secret_key_for_sessions'
 
 CLIENT_ID = ''
 CLIENT_SECRET = ''
-REDIRECT_URI = 'http://127.0.0.1:8888/callback'
+REDIRECT_URI = ''
 SCOPE = 'user-library-read'
 
 @app.route('/')
